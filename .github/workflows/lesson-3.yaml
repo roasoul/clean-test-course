@@ -21,7 +21,7 @@ jobs:
 
 
   function_test:
-    runs-on: uuntu-latest
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: frontend
