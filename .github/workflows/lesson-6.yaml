@@ -31,7 +31,7 @@ jobs:
 #  acceptance_test:
     needs: [deploy]
     runs-on: ubuntu-latest
-    container: cypress/included:10.3.0
+    container: cypress/included:16.1.0
     defaults:
       run:
         working-directory: frontend
@@ -42,7 +42,7 @@ jobs:
         if: always()
         with:
           name: cypress-videos
-          path: frontend/cypress/videossecurity_test:
+          path: frontend/cypress/videossecurity_test
 #    needs: [deploy]
 #    runs-on: ubuntu-latest
 #    steps:
