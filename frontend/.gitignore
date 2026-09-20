@@ -30,3 +30,8 @@ yarn-error.log*
 
 # local Cypress GPU workaround (machine-specific)
 /open-cypress.bat
+
+# cypress run output
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
